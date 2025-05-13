@@ -27,7 +27,7 @@ public class UsuarioService {
     public Usuario buscar(long id){
         return repo.findById(id).orElse(null);
     }
-
+//hola
     public void eliminar(long id) {
         repo.deleteById(id);
     }
